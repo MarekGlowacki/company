@@ -1,2 +1,5 @@
-package online.javafun.company;public class EmployeeRepository {
-}
+package online.javafun.company;
+
+import org.springframework.data.repository.CrudRepository;
+
+interface EmployeeRepository extends CrudRepository<Employee, Long> { }
